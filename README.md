@@ -32,6 +32,8 @@ This is meant **only for controlled local demonstration** (e.g. on your own virt
 
 **You are fully responsible for how you use this code.**
 
+But for real i don't care
+
 ## Quick local test (safest way)
 
 ```bash
