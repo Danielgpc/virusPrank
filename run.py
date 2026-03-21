@@ -15,19 +15,19 @@ def executar_processo():
     # 1. Troca para o TTY3
     print("Mudando para TTY3...")
     subprocess.run(['sudo', 'chvt', '3'])
-    time.sleep(2)
+    time.sleep(0.5)
 
     target_tty = '/dev/tty3'
 
     # 2. Injeta Usuário
     print("Injetando login...")
     inject_tty(target_tty, 'danielgp\n')
-    time.sleep(1.5)
+    time.sleep(0.5)
 
     # 3. Injeta Senha
     print("Injetando senha...")
     inject_tty(target_tty, 'guaravita1\n')
-    time.sleep(1.5)
+    time.sleep(0.5)
 
     # 4. Executa o Script
     print("Executando comando final...")
