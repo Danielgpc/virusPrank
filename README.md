@@ -20,7 +20,7 @@ The optional `run.py` script (requires root):
 - Injects hardcoded username + password via TIOCSTI
 - Attempts to auto-run `virus.sh`
 
-This is meant **only for controlled local demonstration** (e.g. on your own virtual machine while showing someone how fake virus screens work).
+This is meant **only for controlled local demonstration** (e.g. on your own virtual machine while showing someone how fake virus screens work). But you can u=also use it via ssh for praking friends
 
 ## ⚠️ VERY IMPORTANT WARNINGS
 
@@ -29,6 +29,10 @@ This is meant **only for controlled local demonstration** (e.g. on your own virt
 - **Do NOT rename the project to hide its prank nature** (e.g. "system_update.sh", "driver_fix", etc.)
 - **Do NOT distribute it disguised as something useful/important.**
 - Misuse of this kind of prank has caused people to be expelled, fired, sued, or even criminally investigated in several countries.
+
+- Always remember to change the username and password in run.py so the script can run properly
+
+**Notice that the user need to be unlogged and out of the tty screen**
 
 **You are fully responsible for how you use this code.**
 
@@ -40,3 +44,5 @@ But for real i don't care
 # Just look at it — nothing dangerous
 chmod +x virus.sh
 ./virus.sh
+```
+**If anything harmfull happens while running this script, it was not caused byt the script and I won't be accused of nothing, becouse you should have read all the README.md and be councious about the risks**
